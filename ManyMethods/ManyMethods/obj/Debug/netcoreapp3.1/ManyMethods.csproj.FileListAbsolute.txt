@@ -1,0 +1,13 @@
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\bin\Debug\netcoreapp3.1\ManyMethods.exe
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\bin\Debug\netcoreapp3.1\ManyMethods.deps.json
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\bin\Debug\netcoreapp3.1\ManyMethods.runtimeconfig.json
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\bin\Debug\netcoreapp3.1\ManyMethods.runtimeconfig.dev.json
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\bin\Debug\netcoreapp3.1\ManyMethods.dll
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\bin\Debug\netcoreapp3.1\ManyMethods.pdb
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\obj\Debug\netcoreapp3.1\ManyMethods.csprojAssemblyReference.cache
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\obj\Debug\netcoreapp3.1\ManyMethods.AssemblyInfoInputs.cache
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\obj\Debug\netcoreapp3.1\ManyMethods.AssemblyInfo.cs
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\obj\Debug\netcoreapp3.1\ManyMethods.csproj.CoreCompileInputs.cache
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\obj\Debug\netcoreapp3.1\ManyMethods.dll
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\obj\Debug\netcoreapp3.1\ManyMethods.pdb
+C:\Users\Capti\OneDrive\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\obj\Debug\netcoreapp3.1\ManyMethods.genruntimeconfig.cache
