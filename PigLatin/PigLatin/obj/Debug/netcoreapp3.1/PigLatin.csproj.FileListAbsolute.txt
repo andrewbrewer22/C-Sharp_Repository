@@ -1,0 +1,13 @@
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\bin\Debug\netcoreapp3.1\PigLatin.exe
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\bin\Debug\netcoreapp3.1\PigLatin.deps.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\bin\Debug\netcoreapp3.1\PigLatin.runtimeconfig.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\bin\Debug\netcoreapp3.1\PigLatin.runtimeconfig.dev.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\bin\Debug\netcoreapp3.1\PigLatin.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\bin\Debug\netcoreapp3.1\PigLatin.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\obj\Debug\netcoreapp3.1\PigLatin.csprojAssemblyReference.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\obj\Debug\netcoreapp3.1\PigLatin.AssemblyInfoInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\obj\Debug\netcoreapp3.1\PigLatin.AssemblyInfo.cs
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\obj\Debug\netcoreapp3.1\PigLatin.csproj.CoreCompileInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\obj\Debug\netcoreapp3.1\PigLatin.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\obj\Debug\netcoreapp3.1\PigLatin.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PigLatin\PigLatin\obj\Debug\netcoreapp3.1\PigLatin.genruntimeconfig.cache
