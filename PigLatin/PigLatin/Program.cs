@@ -23,6 +23,8 @@ namespace PigLatin
 
         public static string TranslateWord(string word)
         {
+            //all words to lower case for easy setup
+            word = word.ToLower();
             //all words the user created broken up
             string[] wordBank = word.Split(' ');
             //all vowels to check for
