@@ -4,7 +4,7 @@ namespace PigLatin
 {
     class Program
     {
-       // private const int V = 1;
+        // private const int V = 1;
 
         public static void Main()
         {
@@ -44,31 +44,31 @@ namespace PigLatin
             int brokenIndex = 0;
 
             //Check through all words the user input, broken up into wordBank
-            for (int currentIndex = 0; currentIndex < wordBank.Length; currentIndex ++)
+            for (int currentIndex = 0; currentIndex < wordBank.Length; currentIndex++)
             {
                 //every iteration of the for loop set the new word to the next index
                 //according with the currentIndex counter
                 currentWord = wordBank[currentIndex];
 
                 //if the first and last letter is a vowel
-                if(currentWord.IndexOfAny(vowelPool) == 0 && currentWord.IndexOfAny(vowelPool) == currentWord.Length -1)
+                if (currentWord.IndexOfAny(vowelPool) == 0 && currentWord.IndexOfAny(vowelPool) == currentWord.Length - 1)
                 {
                     //Console.WriteLine("Both Begining and end have a vowel");
                     translatedPigLatin = translatedPigLatin + " " + currentWord + "ay";
                 }
                 //if the first letter is a vowel and the last letter is a consonant
-                else if(currentWord.IndexOfAny(vowelPool) == 0 && currentWord.IndexOfAny(consonantPool) == currentWord.Length -1)
+                else if (currentWord.IndexOfAny(vowelPool) == 0 && currentWord.IndexOfAny(consonantPool) == currentWord.Length - 1)
                 {
                     //Console.WriteLine("Begining is a vowel, the end is a consonant");
                     translatedPigLatin = translatedPigLatin + " " + currentWord + "ay";
                 }
                 //starts with consonant and has a vowel after
-                else if(currentWord.IndexOfAny(consonantPool) == 0)
+                else if (currentWord.IndexOfAny(consonantPool) == 0)
                 {
                     //Console.WriteLine("There is a consonant at the begining of my word");
 
                     //if there is a vowel on the word find it
-                    if(currentWord.IndexOfAny(vowelPool) != -1)
+                    if (currentWord.IndexOfAny(vowelPool) != -1)
                     {
                         //Grab the index of the first vowel
                         brokenIndex = currentWord.IndexOfAny(vowelPool);
@@ -80,7 +80,6 @@ namespace PigLatin
                         currentWord = secondHalf + firstHalf;
                         //add word to our translated product
                         translatedPigLatin = translatedPigLatin + " " + currentWord + "ay";
-
                     }
                     else
                     {
@@ -91,13 +90,9 @@ namespace PigLatin
                 else
                 {
                     //Console.WriteLine("No Vowels");
-
                     translatedPigLatin = translatedPigLatin + " " + currentWord + "ay";
                 }
-
             }
-            
-
             Console.WriteLine("Translated: " + translatedPigLatin);
             return word;
         }

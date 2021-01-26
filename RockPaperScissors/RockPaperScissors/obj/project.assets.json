@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\PigLatin\\PigLatin\\PigLatin.csproj",
-      "projectName": "PigLatin",
-      "projectPath": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\PigLatin\\PigLatin\\PigLatin.csproj",
+      "projectUniqueName": "C:\\Users\\Capti\\source\\repos\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.csproj",
+      "projectName": "RockPaperScissors",
+      "projectPath": "C:\\Users\\Capti\\source\\repos\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.csproj",
       "packagesPath": "C:\\Users\\Capti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\PigLatin\\PigLatin\\obj\\",
+      "outputPath": "C:\\Users\\Capti\\source\\repos\\RockPaperScissors\\RockPaperScissors\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Capti\\AppData\\Roaming\\NuGet\\NuGet.Config",
