@@ -1,0 +1,13 @@
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\bin\Debug\netcoreapp3.1\TicTacToeOP.exe
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\bin\Debug\netcoreapp3.1\TicTacToeOP.deps.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\bin\Debug\netcoreapp3.1\TicTacToeOP.runtimeconfig.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\bin\Debug\netcoreapp3.1\TicTacToeOP.runtimeconfig.dev.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\bin\Debug\netcoreapp3.1\TicTacToeOP.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\bin\Debug\netcoreapp3.1\TicTacToeOP.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\obj\Debug\netcoreapp3.1\TicTacToeOP.csprojAssemblyReference.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\obj\Debug\netcoreapp3.1\TicTacToeOP.AssemblyInfoInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\obj\Debug\netcoreapp3.1\TicTacToeOP.AssemblyInfo.cs
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\obj\Debug\netcoreapp3.1\TicTacToeOP.csproj.CoreCompileInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\obj\Debug\netcoreapp3.1\TicTacToeOP.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\obj\Debug\netcoreapp3.1\TicTacToeOP.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TicTacToeOP\TicTacToeOP\obj\Debug\netcoreapp3.1\TicTacToeOP.genruntimeconfig.cache
