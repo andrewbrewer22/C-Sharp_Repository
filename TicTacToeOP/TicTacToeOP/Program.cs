@@ -140,7 +140,6 @@ namespace TicTacToeOP
                 gameActive = false;
             }
         }
-
         public static bool CheckForTie()
         {
             if (board[0][0] != " " ^ board[0][0] != " " &&
