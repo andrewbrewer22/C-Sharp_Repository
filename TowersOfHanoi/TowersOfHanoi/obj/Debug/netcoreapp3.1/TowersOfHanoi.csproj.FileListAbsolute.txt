@@ -1,0 +1,13 @@
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\bin\Debug\netcoreapp3.1\TowersOfHanoi.exe
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\bin\Debug\netcoreapp3.1\TowersOfHanoi.deps.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\bin\Debug\netcoreapp3.1\TowersOfHanoi.runtimeconfig.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\bin\Debug\netcoreapp3.1\TowersOfHanoi.runtimeconfig.dev.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\bin\Debug\netcoreapp3.1\TowersOfHanoi.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\bin\Debug\netcoreapp3.1\TowersOfHanoi.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.csprojAssemblyReference.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.AssemblyInfoInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.AssemblyInfo.cs
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.csproj.CoreCompileInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.genruntimeconfig.cache

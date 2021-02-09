@@ -1,0 +1,13 @@
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\bin\Debug\netcoreapp3.1\PoCo.exe
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\bin\Debug\netcoreapp3.1\PoCo.deps.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\bin\Debug\netcoreapp3.1\PoCo.runtimeconfig.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\bin\Debug\netcoreapp3.1\PoCo.runtimeconfig.dev.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\bin\Debug\netcoreapp3.1\PoCo.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\bin\Debug\netcoreapp3.1\PoCo.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\obj\Debug\netcoreapp3.1\PoCo.csprojAssemblyReference.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\obj\Debug\netcoreapp3.1\PoCo.AssemblyInfoInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\obj\Debug\netcoreapp3.1\PoCo.AssemblyInfo.cs
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\obj\Debug\netcoreapp3.1\PoCo.csproj.CoreCompileInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\obj\Debug\netcoreapp3.1\PoCo.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\obj\Debug\netcoreapp3.1\PoCo.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\PoCo\PoCo\obj\Debug\netcoreapp3.1\PoCo.genruntimeconfig.cache
