@@ -1,0 +1,13 @@
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\bin\Debug\netcoreapp3.1\ToDo.exe
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\bin\Debug\netcoreapp3.1\ToDo.deps.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\bin\Debug\netcoreapp3.1\ToDo.runtimeconfig.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\bin\Debug\netcoreapp3.1\ToDo.runtimeconfig.dev.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\bin\Debug\netcoreapp3.1\ToDo.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\bin\Debug\netcoreapp3.1\ToDo.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\obj\Debug\netcoreapp3.1\ToDo.csprojAssemblyReference.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\obj\Debug\netcoreapp3.1\ToDo.AssemblyInfoInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\obj\Debug\netcoreapp3.1\ToDo.AssemblyInfo.cs
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\obj\Debug\netcoreapp3.1\ToDo.csproj.CoreCompileInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\obj\Debug\netcoreapp3.1\ToDo.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\obj\Debug\netcoreapp3.1\ToDo.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\ToDo\ToDo\obj\Debug\netcoreapp3.1\ToDo.genruntimeconfig.cache
