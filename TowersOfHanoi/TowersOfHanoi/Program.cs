@@ -87,6 +87,8 @@ namespace TowersOfHanoi
             PrintBoard(stickA, stickB, stickC);
             Console.WriteLine("Number of Moves: " + numberOfMoves);
             Console.WriteLine("You Win!");
+            Console.WriteLine("Press Any key to quit");
+            Console.ReadLine();
             
         }
 
