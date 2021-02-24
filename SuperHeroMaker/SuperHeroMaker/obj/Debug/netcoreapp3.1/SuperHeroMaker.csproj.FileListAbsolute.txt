@@ -1,0 +1,13 @@
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\obj\Debug\netcoreapp3.1\SuperHeroMaker.csprojAssemblyReference.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\obj\Debug\netcoreapp3.1\SuperHeroMaker.AssemblyInfoInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\obj\Debug\netcoreapp3.1\SuperHeroMaker.AssemblyInfo.cs
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\obj\Debug\netcoreapp3.1\SuperHeroMaker.csproj.CoreCompileInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\bin\Debug\netcoreapp3.1\SuperHeroMaker.exe
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\bin\Debug\netcoreapp3.1\SuperHeroMaker.deps.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\bin\Debug\netcoreapp3.1\SuperHeroMaker.runtimeconfig.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\bin\Debug\netcoreapp3.1\SuperHeroMaker.runtimeconfig.dev.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\bin\Debug\netcoreapp3.1\SuperHeroMaker.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\bin\Debug\netcoreapp3.1\SuperHeroMaker.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\obj\Debug\netcoreapp3.1\SuperHeroMaker.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\obj\Debug\netcoreapp3.1\SuperHeroMaker.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\SuperHeroMaker\SuperHeroMaker\obj\Debug\netcoreapp3.1\SuperHeroMaker.genruntimeconfig.cache
