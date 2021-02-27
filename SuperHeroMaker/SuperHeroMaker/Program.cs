@@ -69,7 +69,7 @@ namespace SuperHeroMaker
         //Take in new villian name, and get the superheros nickname
         public string VillianName { get; set; }
         public string HeroName { get; set; }
-        public Villian(string villianName, string heroName) : base(villianName,null)
+        public Villian(string villianName, string heroName) : base(villianName, null)
         {
             this.VillianName = villianName;
             this.HeroName = heroName;

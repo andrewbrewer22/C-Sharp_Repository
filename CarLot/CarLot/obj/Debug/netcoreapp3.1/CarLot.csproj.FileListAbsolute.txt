@@ -1,0 +1,13 @@
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\bin\Debug\netcoreapp3.1\CarLot.exe
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\bin\Debug\netcoreapp3.1\CarLot.deps.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\bin\Debug\netcoreapp3.1\CarLot.runtimeconfig.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\bin\Debug\netcoreapp3.1\CarLot.runtimeconfig.dev.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\bin\Debug\netcoreapp3.1\CarLot.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\bin\Debug\netcoreapp3.1\CarLot.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\obj\Debug\netcoreapp3.1\CarLot.csprojAssemblyReference.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\obj\Debug\netcoreapp3.1\CarLot.AssemblyInfoInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\obj\Debug\netcoreapp3.1\CarLot.AssemblyInfo.cs
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\obj\Debug\netcoreapp3.1\CarLot.csproj.CoreCompileInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\obj\Debug\netcoreapp3.1\CarLot.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\obj\Debug\netcoreapp3.1\CarLot.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CarLot\CarLot\obj\Debug\netcoreapp3.1\CarLot.genruntimeconfig.cache
