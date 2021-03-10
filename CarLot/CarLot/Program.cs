@@ -8,7 +8,6 @@ namespace CarLot
         //Dictionary set of vehicle data
         static Dictionary<int, string> VehicleData = new Dictionary<int, string>();
         //List<int> 
-
         static void Main()
         {
             //Add Each vehicle info seperately than add to our VehicleData Dictionary

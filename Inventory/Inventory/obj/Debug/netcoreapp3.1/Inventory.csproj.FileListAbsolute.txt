@@ -1,0 +1,13 @@
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\bin\Debug\netcoreapp3.1\Inventory.exe
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\bin\Debug\netcoreapp3.1\Inventory.deps.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\bin\Debug\netcoreapp3.1\Inventory.runtimeconfig.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\bin\Debug\netcoreapp3.1\Inventory.runtimeconfig.dev.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\bin\Debug\netcoreapp3.1\Inventory.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\bin\Debug\netcoreapp3.1\Inventory.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.csprojAssemblyReference.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.AssemblyInfoInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.AssemblyInfo.cs
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.csproj.CoreCompileInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.genruntimeconfig.cache

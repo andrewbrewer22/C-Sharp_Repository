@@ -1,0 +1,13 @@
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\bin\Debug\netcoreapp3.1\CheckersIsFun.exe
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\bin\Debug\netcoreapp3.1\CheckersIsFun.deps.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\bin\Debug\netcoreapp3.1\CheckersIsFun.runtimeconfig.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\bin\Debug\netcoreapp3.1\CheckersIsFun.runtimeconfig.dev.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\bin\Debug\netcoreapp3.1\CheckersIsFun.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\bin\Debug\netcoreapp3.1\CheckersIsFun.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\obj\Debug\netcoreapp3.1\CheckersIsFun.csprojAssemblyReference.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\obj\Debug\netcoreapp3.1\CheckersIsFun.AssemblyInfoInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\obj\Debug\netcoreapp3.1\CheckersIsFun.AssemblyInfo.cs
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\obj\Debug\netcoreapp3.1\CheckersIsFun.csproj.CoreCompileInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\obj\Debug\netcoreapp3.1\CheckersIsFun.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\obj\Debug\netcoreapp3.1\CheckersIsFun.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\CheckersIsFun\CheckersIsFun\obj\Debug\netcoreapp3.1\CheckersIsFun.genruntimeconfig.cache

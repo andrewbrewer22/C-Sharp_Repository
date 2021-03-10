@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\TicTacToeOP\\TicTacToeOP\\TicTacToeOP.csproj",
-      "projectName": "TicTacToeOP",
-      "projectPath": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\TicTacToeOP\\TicTacToeOP\\TicTacToeOP.csproj",
+      "projectUniqueName": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\Inventory\\Inventory\\Inventory.csproj",
+      "projectName": "Inventory",
+      "projectPath": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\Inventory\\Inventory\\Inventory.csproj",
       "packagesPath": "C:\\Users\\Capti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\TicTacToeOP\\TicTacToeOP\\obj\\",
+      "outputPath": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\Inventory\\Inventory\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Capti\\AppData\\Roaming\\NuGet\\NuGet.Config",

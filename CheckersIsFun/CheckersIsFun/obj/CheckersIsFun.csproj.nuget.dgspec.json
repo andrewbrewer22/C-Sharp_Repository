@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\TicTacToeOP\\TicTacToeOP\\TicTacToeOP.csproj": {}
+    "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\CheckersIsFun\\CheckersIsFun\\CheckersIsFun.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\TicTacToeOP\\TicTacToeOP\\TicTacToeOP.csproj": {
+    "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\CheckersIsFun\\CheckersIsFun\\CheckersIsFun.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\TicTacToeOP\\TicTacToeOP\\TicTacToeOP.csproj",
-        "projectName": "TicTacToeOP",
-        "projectPath": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\TicTacToeOP\\TicTacToeOP\\TicTacToeOP.csproj",
+        "projectUniqueName": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\CheckersIsFun\\CheckersIsFun\\CheckersIsFun.csproj",
+        "projectName": "CheckersIsFun",
+        "projectPath": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\CheckersIsFun\\CheckersIsFun\\CheckersIsFun.csproj",
         "packagesPath": "C:\\Users\\Capti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\TicTacToeOP\\TicTacToeOP\\obj\\",
+        "outputPath": "C:\\Users\\Capti\\OneDrive\\Desktop\\GITcSharpRepo\\C-Sharp_Repository\\CheckersIsFun\\CheckersIsFun\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Capti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
