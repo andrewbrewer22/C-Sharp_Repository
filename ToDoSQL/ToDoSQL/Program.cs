@@ -96,7 +96,10 @@ namespace ToDoSQL
         public string Description { get; set; }
         public string Status { get; set; }
 
+        public TodoItem()
+        {
 
+        }
         public TodoItem(string title, string desc, string stat)
         {
             this.Title = title;
@@ -111,22 +114,110 @@ namespace ToDoSQL
     it is saved and fetched from the database.*/
     class ItemRepository
     {
-        ItemContext contextItem = new ItemContext();
-
+        ItemContext contextItem;
+        //Needed constructor, ensures the db is created
+        public ItemRepository()
+        {
+            contextItem = new ItemContext();
+            contextItem.Database.EnsureCreated();
+        }
         public List<string> ListInfo()
         {
-            
-            contextItem.Database.EnsureCreated();
-
+            //Return list
             List<string> toDoList = new List<string>();
 
-            foreach(TodoItem i in contextItem.toDo)
+            foreach (TodoItem i in contextItem.toDo)
             {
-                toDoList.Add(i.ID + i.Status + i.Title + i.Description);
+                toDoList.Add(i.ID + " Status: " + i.Status + " Title: " + i.Title + " Description: " + i.Description);
+            }
+            return toDoList;
+        }
+
+        //Editing
+        public (bool, int) EditInfoCheck(int[] editCode)
+        {
+            int currentID = 0;
+            bool notValid = true;
+
+            foreach (TodoItem i in contextItem.toDo)
+            {
+                //Check each ID of context. If our user ID matches, than continue
+                if (i.ID == editCode[0])
+                {
+                    currentID = editCode[0];
+                    notValid = false;
+                    break;
+                }
+                else
+                {
+                    notValid = true;
+                }
             }
 
-            // contextItem.Database.
-            return toDoList;
+            //Return true or false to App so we know if the information is legit
+            if (notValid)
+            {
+                //Return the failing ID code
+                return (false, editCode[0]);
+
+            }
+            else
+            {
+                //ID was successful, return the section code
+                return (true, editCode[1]);
+            }
+        }
+        public void PushEdit(int[] editCode, string edit)
+        {
+            //Push the edit onto the desired ID
+            foreach (TodoItem i in contextItem.toDo)
+            {
+                if (i.ID == editCode[0])
+                {
+                    //Translate editcode [1]
+                    switch (editCode[1])
+                    {
+                        case 0:
+                            i.Status = edit;
+                            break;
+
+                        case 1:
+                            i.Description = edit;
+                            break;
+
+                        case 2:
+                            i.Title = edit;
+                            break;
+                    }
+                }
+            }
+            //Save changes
+            contextItem.SaveChanges();
+            Console.WriteLine("___________________Changes Saved__________________");
+        }
+
+        //Remove
+        public void RemoveItem(int removeCode)
+        {
+            foreach (TodoItem i in contextItem.toDo)
+            {
+                if (i.ID == removeCode)
+                {
+                    contextItem.toDo.Remove(i);
+                    contextItem.SaveChanges();
+                    Console.WriteLine("Item Removed");
+                }
+            }
+        }
+
+        //Add Item
+        public void AddItem(string[] newItem)
+        {
+            //Title, Description, status
+            TodoItem newTodo = new TodoItem(newItem[0], newItem[1], newItem[2]);
+            contextItem.toDo.Add(newTodo);
+            contextItem.SaveChanges();
+            Console.WriteLine("Item added");
         }
     }
 
@@ -160,6 +251,31 @@ namespace ToDoSQL
     class ConsoleUI
     {
         public int currentPrompt;
+
+        #region EDIT Var
+        //used to dispatch our request for further evaluation
+        //                                ID  Sec
+        public int[] editCode = new int[] { 0, 0 };
+        //current string to establish in edit
+        public string editToPush = "";
+        //Used to determine if we should use our base switch statement
+        //Edit bools
+        public bool editingItem = false;
+        public bool continueEdit = false;
+        public bool editComplete = false;
+        #endregion
+
+        #region Remove Var
+        //Remove bools
+        public bool removeItem = false;
+        public int removeCode = 0;
+        #endregion
+
+        #region ADD Var
+        public bool addNewItem = false;
+        public string[] newToDoItem = { "", "", "" };
+        #endregion
+
         public void UserInputPrompt()
         {
             Console.WriteLine("Main User Prompt");
@@ -205,7 +321,7 @@ namespace ToDoSQL
                     break;
 
                 case "edititem":
-                    EditItemPrompt();
+                    //EditItemPrompt();
                     currentPrompt = 3;
                     break;
 
@@ -233,41 +349,57 @@ namespace ToDoSQL
             Console.WriteLine("________________________________");
             //Basic Commands
             string userInput = Console.ReadLine();
+            //used to split up the userinput for evaluation
+            string[] userSplit = userInput.Split(" ");
 
-            switch (userInput)
+            if (userSplit[0] == "additem" && userSplit[1] == "newitem")
             {
-                case "help":
-                    Console.WriteLine("_______________________");
-                    Console.WriteLine("quit : Exit the console");
-                    Console.WriteLine("return : Return to last section");
-                    Console.WriteLine("help additem : action help");
-                    Console.WriteLine("list : List todo items");
-                    Console.WriteLine("_______________________________");
-                    break;
+                Console.WriteLine("Type a Title");
+                newToDoItem[0] = Console.ReadLine();
 
-                case "help additem":
-                    Console.WriteLine("Put additem help here");
-                    Console.WriteLine("Put additem help here");
-                    Console.WriteLine("Put additem help here");
-                    Console.WriteLine("Put additem help here");
-                    Console.WriteLine("Put additem help here");
-                    break;
+                Console.WriteLine("Type a Description");
+                newToDoItem[1] = Console.ReadLine();
 
-                case "return":
-                    currentPrompt = 0;
-                    break;
+                Console.WriteLine("Type the \"Status\" of the ToDo Item");
+                newToDoItem[2] = Console.ReadLine();
 
-                case "quit":
-                    Environment.Exit(0);
-                    break;
+                addNewItem = true;
+            }
 
-                case "list":
-                    currentPrompt = 4;
-                    break;
+            if (!addNewItem)
+            {
+                switch (userInput)
+                {
+                    case "help":
+                        Console.WriteLine("_______________________");
+                        Console.WriteLine("quit : Exit the console");
+                        Console.WriteLine("return : Return to last section");
+                        Console.WriteLine("help additem : action help");
+                        Console.WriteLine("list : List todo items");
+                        Console.WriteLine("_______________________________");
+                        break;
 
-                default:
-                    Console.WriteLine("Invalid Input. Type \'help\' for a list of commands");
-                    break;
+                    case "help additem":
+                        Console.WriteLine("additem \'newitem\': Add new to do item");
+
+                        break;
+
+                    case "return":
+                        currentPrompt = 0;
+                        break;
+
+                    case "quit":
+                        Environment.Exit(0);
+                        break;
+
+                    case "list":
+                        currentPrompt = 4;
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid Input. Type \'help\' for a list of commands");
+                        break;
+                }
             }
         }
 
@@ -277,96 +409,210 @@ namespace ToDoSQL
             Console.WriteLine("________________________________");
             //Basic Commands
             string userInput = Console.ReadLine();
+            //used to split up the userinput for evaluation
+            string[] userSplit = userInput.Split(" ");
 
-            switch (userInput)
+            int todoID = 0;
+
+            if (userSplit[0] == "removeitem")
             {
-                case "help":
-                    Console.WriteLine("_______________________");
-                    Console.WriteLine("quit : Exit the console");
-                    Console.WriteLine("return : Return to last section");
-                    Console.WriteLine("help removeitem : action help");
-                    Console.WriteLine("list : List todo items");
-                    Console.WriteLine("_______________________________");
-                    break;
+                //Set remove item, if the evaluation is not true
+                //set false
+                removeItem = true;
 
-                case "help removeitem":
-                    Console.WriteLine("Put removeitem help here");
-                    Console.WriteLine("Put removeitem help here");
-                    Console.WriteLine("Put removeitem help here");
-                    Console.WriteLine("Put removeitem help here");
-                    Console.WriteLine("Put removeitem help here");
-                    break;
+                try
+                {
+                    //Index 1 is the todo ID
+                    todoID = Convert.ToInt32(userSplit[1]);
+                    //Assign our ID editcode ID
+                    removeCode = todoID;
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Not a valid todo ID");
+                    removeItem = false;
+                    //throw;
+                }
+            }
 
-                case "return":
-                    currentPrompt = 0;
-                    break;
+            if (!removeItem)
+            {
+                switch (userInput)
+                {
+                    case "help":
+                        Console.WriteLine("_______________________");
+                        Console.WriteLine("quit : Exit the console");
+                        Console.WriteLine("return : Return to last section");
+                        Console.WriteLine("help removeitem : action help");
+                        Console.WriteLine("list : List todo items");
+                        Console.WriteLine("_______________________________");
+                        break;
 
-                case "quit":
-                    Environment.Exit(0);
-                    break;
+                    case "help removeitem":
+                        Console.WriteLine("removeitem \'itemID\' : deletes item");
+                        //Console.WriteLine("Put removeitem help here");
+                        break;
 
-                case "list":
-                    currentPrompt = 4;
-                    break;
+                    case "return":
+                        currentPrompt = 0;
+                        break;
 
-                default:
-                    Console.WriteLine("Invalid Input. Type \'help\' for a list of commands");
-                    break;
+                    case "quit":
+                        Environment.Exit(0);
+                        break;
+
+                    case "list":
+                        currentPrompt = 4;
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid Input. Type \'help\' for a list of commands");
+                        break;
+                }
             }
         }
 
-        public void EditItemPrompt()
+        //Check input for user editing
+        public void EditItemPrompt(List<string> todo)
         {
             Console.WriteLine("Edit Item");
             Console.WriteLine("________________________________");
-            //Basic Commands
-            string userInput = Console.ReadLine();
-
-            switch (userInput)
+            string userInput = "";
+            string[] userSplit = new string[10];
+            //only grab the user input if were not editing
+            if (!continueEdit)
             {
-                case "help":
-                    Console.WriteLine("_______________________");
-                    Console.WriteLine("quit : Exit the console");
-                    Console.WriteLine("return : Return to last section");
-                    Console.WriteLine("help edititem : action help");
-                    Console.WriteLine("list : List todo items");
-                    Console.WriteLine("_______________________________");
-                    break;
+                //Basic Commands
+                userInput = Console.ReadLine();
+                //used to split up the userinput for evaluation
+                userSplit = userInput.Split(" ");
+            }
 
-                case "help edititem":
-                    Console.WriteLine("Put edititem help here");
-                    Console.WriteLine("Put edititem help here");
-                    Console.WriteLine("Put edititem help here");
-                    Console.WriteLine("Put edititem help here");
-                    Console.WriteLine("Put edititem help here");
-                    break;
+            //Used as temp variable to hold our split ID char
+            int todoID = 0;
 
-                case "return":
-                    currentPrompt = 0;
-                    break;
+            //If the user input made it through first test
+            //Continue to edit by grabbing desired user info
+            if (continueEdit)
+            {
+                Console.WriteLine("Input edit:");
+                editToPush = Console.ReadLine();
 
-                case "quit":
-                    Environment.Exit(0);
-                    break;
+                editComplete = true;
+                //continueEdit = false;
+            }
 
-                case "list":
-                    currentPrompt = 4;
-                    break;
+            //Retrieves the first word of the user input if edit
+            if (!continueEdit && userSplit[0] == "edit")
+            {
+                //If all tests pass, let APP continue the request
+                editingItem = true;
 
-                default:
-                    Console.WriteLine("Invalid Input. Type \'help\' for a list of commands");
-                    break;
+                //identify the second index as the ID todo
+                try
+                {
+                    //Index 1 is the todo ID
+                    todoID = Convert.ToInt32(userSplit[1]);
+
+                    //Assign our ID editcode ID
+                    editCode[0] = todoID;
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Not a valid todo ID");
+                    editingItem = false;
+                    //throw;
+                }
+                //identify which category the user would like to edit
+
+                switch (userSplit[2])
+                {
+                    case "status":
+                        //Console.WriteLine("status");
+                        editCode[1] = 0;
+                        break;
+
+                    case "description":
+                        //Console.WriteLine("description");
+                        editCode[1] = 1;
+                        break;
+
+                    case "title":
+                        //Console.WriteLine("title");
+                        editCode[1] = 2;
+                        break;
+
+                    default:
+                        Console.WriteLine("Not a valid section to edit");
+                        editCode[0] = 0;
+                        editCode[1] = 0;
+                        editingItem = false;
+                        break;
+                }
+            }
+
+            if (!editingItem && !continueEdit)
+            {
+                switch (userInput)
+                {
+                    case "help":
+                        Console.WriteLine("_______________________");
+                        Console.WriteLine("quit : Exit the console");
+                        Console.WriteLine("return : Return to last section");
+                        Console.WriteLine("help edititem : action help");
+                        Console.WriteLine("list : List todo items");
+                        Console.WriteLine("_______________________________");
+                        break;
+
+                    case "return":
+                        currentPrompt = 0;
+                        break;
+
+                    case "quit":
+                        Environment.Exit(0);
+                        break;
+
+                    case "list":
+                        currentPrompt = 4;
+                        break;
+
+                    //Select todo item and edit
+                    case "help edititem":
+                        Console.WriteLine("edit \"itemID\" \"status, title, description\"");
+                        break;
+
+                    //case "edit"
+
+                    default:
+                        Console.WriteLine("Invalid Input. Type \'help\' for a list of commands");
+                        break;
+                }
             }
         }
-
         public void ResetMethod()
         {
+            //Add Item
+            newToDoItem[0] = "";
+            newToDoItem[1] = "";
+            newToDoItem[2] = "";
+            addNewItem = false;
+
+            //reset editing parameters
+            editCode[0] = 0;
+            editCode[1] = 0;
+            editComplete = false;
+            editingItem = false;
+            continueEdit = false;
+
+            //reset remove paremters
+            removeCode = 0;
+            removeItem = false;
+
             currentPrompt = 0;
         }
-
         public void ListToDo(List<string> todo)
         {
-            for(int i = 0; i < todo.Count; i++)
+            for (int i = 0; i < todo.Count; i++)
             {
                 Console.WriteLine(todo[i]);
             }
@@ -401,6 +647,7 @@ namespace ToDoSQL
 
         void Master()
         {
+            //our currentprompt = the console class current prompt
             switch (currentPrompt)
             {
                 //Main input
@@ -420,15 +667,67 @@ namespace ToDoSQL
 
                 //Edit Item
                 case 3:
-                    console.EditItemPrompt();
+                    //Console.WriteLine("Edit trigger");
+                    console.EditItemPrompt(itemRepo.ListInfo());
+
                     break;
 
                 case 4:
                     //Print todo items
                     console.ListToDo(itemRepo.ListInfo());
+                    Console.WriteLine("_____________________________________________");
                     console.ResetMethod();
                     break;
             }
+
+            #region ADDING
+            if (console.addNewItem)
+            {
+                itemRepo.AddItem(console.newToDoItem);
+                console.ResetMethod();
+            }
+            #endregion
+
+            #region REMOVING
+            if (console.removeItem)
+            {
+                itemRepo.RemoveItem(console.removeCode);
+                console.ResetMethod();
+            }
+            #endregion
+
+            #region EDITING
+            //If the user editing prompt did not pick up any problems
+            //continue to pass the code to itemrepo editinfo meth
+            if (console.editingItem)
+            {
+                //pass editcode to editinfo for further evaluation
+                if (itemRepo.EditInfoCheck(console.editCode).Item1)
+                {
+                    //if the code was good continue to next edit station
+                    Console.WriteLine("Good input");
+                    console.editingItem = false;
+                    console.continueEdit = true;
+                }
+                else
+                {
+                    //if input was bad, stop the code and report why
+                    Console.WriteLine("Invalid ID: " + "(" + itemRepo.EditInfoCheck(console.editCode).Item2
+                        + ")" + " please \'list\' to see available options");
+                    console.editingItem = false;
+                    console.ResetMethod();
+                }
+            }
+            //if edit complete, push the edit to the itemRepo
+            //for final step
+            if (console.editComplete)
+            {
+                //                  ID and sec      edit to push to sec
+                itemRepo.PushEdit(console.editCode, console.editToPush);
+
+                console.ResetMethod();
+            }
+            #endregion
         }
     }
 }

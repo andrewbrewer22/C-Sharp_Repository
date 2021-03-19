@@ -1,0 +1,13 @@
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\bin\Debug\netcoreapp3.1\BubbleFizzSortBuzz.exe
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\bin\Debug\netcoreapp3.1\BubbleFizzSortBuzz.deps.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\bin\Debug\netcoreapp3.1\BubbleFizzSortBuzz.runtimeconfig.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\bin\Debug\netcoreapp3.1\BubbleFizzSortBuzz.runtimeconfig.dev.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\bin\Debug\netcoreapp3.1\BubbleFizzSortBuzz.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\bin\Debug\netcoreapp3.1\BubbleFizzSortBuzz.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\obj\Debug\netcoreapp3.1\BubbleFizzSortBuzz.csprojAssemblyReference.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\obj\Debug\netcoreapp3.1\BubbleFizzSortBuzz.AssemblyInfoInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\obj\Debug\netcoreapp3.1\BubbleFizzSortBuzz.AssemblyInfo.cs
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\obj\Debug\netcoreapp3.1\BubbleFizzSortBuzz.csproj.CoreCompileInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\obj\Debug\netcoreapp3.1\BubbleFizzSortBuzz.dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\obj\Debug\netcoreapp3.1\BubbleFizzSortBuzz.pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\BubbleFizzSortBuzz\BubbleFizzSortBuzz\obj\Debug\netcoreapp3.1\BubbleFizzSortBuzz.genruntimeconfig.cache
