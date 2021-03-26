@@ -1,0 +1,13 @@
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\bin\Debug\netcoreapp3.1\Draughts(Checkers).exe
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\bin\Debug\netcoreapp3.1\Draughts(Checkers).deps.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\bin\Debug\netcoreapp3.1\Draughts(Checkers).runtimeconfig.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\bin\Debug\netcoreapp3.1\Draughts(Checkers).runtimeconfig.dev.json
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\bin\Debug\netcoreapp3.1\Draughts(Checkers).dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\bin\Debug\netcoreapp3.1\Draughts(Checkers).pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\obj\Debug\netcoreapp3.1\Draughts(Checkers).csprojAssemblyReference.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\obj\Debug\netcoreapp3.1\Draughts(Checkers).AssemblyInfoInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\obj\Debug\netcoreapp3.1\Draughts(Checkers).AssemblyInfo.cs
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\obj\Debug\netcoreapp3.1\Draughts(Checkers).csproj.CoreCompileInputs.cache
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\obj\Debug\netcoreapp3.1\Draughts(Checkers).dll
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\obj\Debug\netcoreapp3.1\Draughts(Checkers).pdb
+C:\Users\Capti\OneDrive\Desktop\GITcSharpRepo\C-Sharp_Repository\Draughts(Checkers)\Draughts(Checkers)\obj\Debug\netcoreapp3.1\Draughts(Checkers).genruntimeconfig.cache
